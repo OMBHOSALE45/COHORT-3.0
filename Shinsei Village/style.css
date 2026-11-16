@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.shojumaru-regular {
+    font-family: "Shojumaru", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+
+
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(243, 150, 150); */
+    overflow: hidden;
+
+}
+
+
+main img {
+    height: 100%;
+    width: 100%;
+
+}
+
+header {
+    height: 10%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+    z-index: 10;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 1px;
+    cursor: pointer;
+    margin-left: 10%;
+}
+
+.logo .brand-text {
+    font-size: 17px;
+    font-weight: 800;
+    color: #ffffff;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+.logo-icon {
+    width: 24px;
+    height: 24px;
+    color: #ffffff;
+    filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.4));
+}
+
+.menu-btns .btn {
+    height: 30px;
+    display: flex;
+    margin-left: 60px;
+    margin-top: 10px;
+    background: transparent;
+    border: none;
+    color: #fff;
+    font: inherit;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+header .icons {
+    margin-left: 80px;
+    /* background-color: #fff; */
+}
+
+.icons i {
+    font-size: 35px;
+    color: #fff;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.mid {
+    height: 60%;
+    width: 100%;
+    position: absolute;
+    top: 10%;
+    left: 0;
+}
+
+.mid #h4 {
+    color: #fff;
+    font-size: 25px;
+    margin-top: 6%;
+    margin-left: 390px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.mid h2 {
+    color: #fff;
+    font-size: 65px;
+    margin-left: 420px;
+    margin-bottom: 10px;
+    font-family: "Shojumaru", system-ui;
+}
+
+.mid #tanjiro {
+    position: absolute;
+    top: 10%;
+    left: 39%;
+    height: 120%;
+    width: 25%;
+}
+
+.mid #mintnow {
+    position: absolute;
+    top: 55%;
+    left: 43%;
+    height: 10%;
+    width: 10%;
+    border: 10px solid yellow;
+    border-radius: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: #020101;
+    background-color: yellow;
+    position: absolute;
+}
+
+#mintnow::before,
+#mintnow::after {
+    content: "";
+    position: absolute;
+    pointer-events: none;
+    top: -4px;
+    bottom: -4px;
+    width: 22px;
+    background:
+        linear-gradient(73deg, transparent 43%, #302719 45% 54%, transparent 56%),
+        linear-gradient(73deg, transparent 43%, #302719 45% 54%, transparent 56%),
+        linear-gradient(73deg, transparent 43%, #302719 45% 54%, transparent 56%)
+}
+
+#mintnow::before {
+    left: -14px;
+    top: 8px;
+
+}
+
+#mintnow::after {
+    right: -15px;
+    bottom: 8px;
+}
+
+footer {
+    height: 25%;
+    width: 100%;
+    background-color: rgb(58, 9, 46);
+    position: absolute;
+    top: 75%;
+    overflow: hidden;
+}
+
+footer h3 {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 720px;
+    font-family: "Shojumaru", system-ui;
+
+}
+
+footer .left-para {
+    height: 100px;
+    width: 500px;
+    margin-left: 210px;
+    margin-top: 10px;
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+footer .right-para {
+    height: 100px;
+    width: 500px;
+    position: absolute;
+    top: 60px;
+    left: 850px;
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}

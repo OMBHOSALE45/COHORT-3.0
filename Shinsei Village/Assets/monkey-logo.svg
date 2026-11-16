@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- Outer aura / crest -->
+  <path d="M50 8 L58 24 L72 16 L68 32 L84 32 L74 46 L90 54 L76 64 L84 78 L68 76 L62 90 L50 82 L38 90 L32 76 L16 78 L24 64 L10 54 L26 46 L16 32 L32 32 L28 16 L42 24 Z" fill="currentColor" opacity="0.15"/>
+  
+  <!-- Samurai Helmet / Hair Crest -->
+  <path d="M50 12 C55 20 62 24 70 25 C64 30 60 38 60 45 C56 42 53 40 50 40 C47 40 44 42 40 45 C40 38 36 30 30 25 C38 24 45 20 50 12 Z" fill="currentColor"/>
+  
+  <!-- Monkey Face Outline -->
+  <path d="M28 42 C20 42 16 52 18 62 C20 72 28 78 36 78 C38 84 43 88 50 88 C57 88 62 84 64 78 C72 78 80 72 82 62 C84 52 80 42 72 42 C68 42 64 45 62 48 C58 45 54 44 50 44 C46 44 42 45 38 48 C36 45 32 42 28 42 Z" fill="currentColor"/>
+  
+  <!-- Face Inner Mask Cutout (negative space) -->
+  <path d="M50 48 C44 48 38 52 36 58 C34 64 36 72 42 75 C45 76 48 76 50 76 C52 76 55 76 58 75 C64 72 66 64 64 58 C62 52 56 48 50 48 Z" fill="#12131a"/>
+  
+  <!-- Piercing Eyes (White / Glowing) -->
+  <polygon points="40,58 46,62 41,64 37,61" fill="#fff"/>
+  <polygon points="60,58 63,61 59,64 54,62" fill="#fff"/>
+  
+  <!-- Samurai Forehead Diamond / Crest -->
+  <polygon points="50,22 55,29 50,36 45,29" fill="#ff4655"/>
+  
+  <!-- Snout & Whisker Accents -->
+  <circle cx="50" cy="67" r="2.5" fill="currentColor"/>
+  <path d="M46 71 C48 73 52 73 54 71" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+</svg>
